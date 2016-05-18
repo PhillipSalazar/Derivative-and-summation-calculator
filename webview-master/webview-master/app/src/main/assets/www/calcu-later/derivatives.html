@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Calcu-later</title>
+  <!-- Boostrap  -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- my links & scripts    -->
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script src="scripts.js"></script>
+
+</head>
+
+<body>
+<div class="container-fluid">
+
+<div class="row">
+  <div class="jumbotron">
+  <a href="index.html" > <h2>+  Calcu-later /</h2> </a>
+
+
+</div>
+
+<div class="row">
+  <div class="col-sm-12 cat">
+    <!--box1   -->
+      <div id="navigation">
+        <a href="summations.html"><div class="nav">
+          <h4 class="navTit">Summations</h4>
+        </div></a>
+          <!-- box2  -->
+        <a href="asymptote.html"><div class="nav">
+          <h4 class="navTit">Arithmetic</h4>
+        </div></a>
+          <!-- box3  -->
+
+
+          <!-- box4  -->
+        <a href="derivatives.html"><div class="nav">
+          <h4 class="navTit">Derivatives</h4>
+        </div></a>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12"></div>
+</div>
+
+<div class="row dog">
+  <div class="col-sm-2 ">
+  </div>
+    <!-- copy code please -->
+    <div class="col-sm-4">
+
+      <div class="crapz-box">
+      <h3>Derivative</h3>
+
+        <p>Function</p>
+        <input id="1st" type="text" autocapitalize=off>
+        <p>X<sub>1</sub></p>
+        <input id="2nd" type="text" autocapitalize=off>
+        <p>X<sub>2</sub></p>
+        <input id="x" type="text" autocapitalize=off>
+        <button onClick="der()">Calculate</button>
+
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="rope">
+      <p id="blah"></p>
+      <br>
+      <br>
+      <div class="space">
+        <p>This calulator is design to find the derivaive of a
+        fuction between two points. X<sub>1</sub> is the first point
+        X<sub>2</sub> is the second point.</p>
+      </div>
+    </div>
+</div>
+<div class="col-sm-2 ">
+</div>
+</div>
+</div>
+</body>
+
+<script>
+function der(){
+
+var grapes = document.getElementById('1st').value;
+var bannanas = document.getElementById('2nd').value;
+var berries = document.getElementById('x').value;
+
+
+
+
+var i = grapes;
+var d = [];
+ d.push(bannanas);
+ d.push(berries);
+ var g = parseFloat(d[0]);
+ var s = parseFloat(d[1]);
+
+ var x = g;
+ var cake = eval(i);
+ console.log(cake);
+ var x = s;
+ var bake = eval(i);
+ console.log(bake);
+var blah = eval(cake-bake);
+console.log(blah);
+
+var blank = eval(g-s);
+console.log(blank);
+var cat = eval(blah/blank);
+console.log(cat);
+
+
+  document.getElementById('blah').innerHTML = cat;
+}
+
+
+
+
+
+
+</script>
+</html>

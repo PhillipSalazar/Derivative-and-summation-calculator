@@ -1,0 +1,120 @@
+h2 {
+  margin-left: 10%;
+  margin-top: 10%;
+font-family: Comic Sans MS;
+}
+
+a {
+  color: #990099;
+}
+
+#bob {
+  background-color:  #990099;
+    height: auto;
+}
+
+#gab {
+background-color:  #990099;
+  height: 800px;
+}
+
+
+.jumbotron {
+  height: 150px;
+  color:  #990099 ;
+
+}
+
+body {
+  background-color:  #990099;
+  height: 900px;
+}
+
+.cat {
+  background-color:  #990099;
+  height: 6em;
+/*  margin-left: 4%; */
+}
+
+.dog {
+  background-color: white;
+}
+
+.nav {
+  border: 2px solid white;
+
+  float: left;
+  width: 15em;
+  height: 3.5em;
+}
+
+#navigation{
+/*  margin-left: 7%;
+  margin-bottom: -5%; */
+}
+
+h4 {
+  color: white;
+  float: left;
+ margin-left: 25%;
+ font-family: Comic Sans MS;
+}
+
+h3 {
+  color:  #990099;
+}
+
+p {
+  font-size: 100%;
+  font-family: Comic Sans MS;
+  color:  #990099;
+}
+
+.par1 {
+color:  #990099;
+font-family: Comic Sans MS;
+}
+
+.crapz-box {
+width: 40%;
+margin-left: 20%;
+margin-bottom: 2%;
+
+}
+.grape-box {
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 10%;
+
+}
+
+.master-box {
+
+  margin-left: 20%;
+}
+.jumbotron{
+z-index: 1;
+width: 100%;
+}
+
+.col-sm-12 {
+  height: 2em;
+}
+
+.space {
+margin-left: 10%;
+}
+
+  #blah {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+
+.row {
+  z-index: 1;
+  width: 95%;
+  margin-left: 2%;
+  border: 2px solid #990099;
+  border-radius: 5px;
+}
